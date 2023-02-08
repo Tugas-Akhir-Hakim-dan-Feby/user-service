@@ -41,4 +41,4 @@ jobs:
         username: ${{ secrets.USERNAME }}
         host: ${{ secrets.HOST }}
         password: ${{ secrets.PASSWORD }}
-        script: ${{ secrets.SCRIPT }}
+        script: "cd /home/u890410510/domains/berobatplus.shop/hakim-ta/user-service && sh deploy.sh"
